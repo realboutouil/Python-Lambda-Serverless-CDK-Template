@@ -14,4 +14,4 @@ RUN pip3 install --trusted-host pypi.python.org --no-cache-dir -r requirements.t
 # Copy the rest of the working directory contents into the container at /app
 COPY . .
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python", "lambda.py"]
